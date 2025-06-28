@@ -6,7 +6,7 @@ This project is a modular **Retrieval-Augmented Generation (RAG)** application t
 ## 📂 Project Structure
 
 ```
-ragbot2.0/
+AskMyPDF/
 ├── client/         # Streamlit Frontend
 │   |──components/
 |   |  |──chatUI.py
@@ -58,16 +58,16 @@ Retrieval-Augmented Generation (RAG) enhances LLMs by injecting external knowled
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/snsupratim/RagBot-2.0.git
-cd RagBot-2.0
+git clone https://github.com/hamzakamelen/AskMyPDF-FASTAPI
+cd AskMyPDF-FASTAPI
+python -m venv venv
+source venv/Scripts/activate
 ```
 
 ### 2. Setup the Backend (FastAPI)
 
 ```bash
 cd server
-python -m venv venv
-source venv/Scripts/activate
 pip install -r requirements.txt
 
 # Set your Groq API Key (.env)
