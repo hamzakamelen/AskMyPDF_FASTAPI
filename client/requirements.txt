@@ -1,0 +1,42 @@
+# Web Framework
+fastapi
+uvicorn[standard]
+
+# LangChain & Ecosystem
+langchain
+langchain-community
+langchain-core
+langchain-groq
+
+# Vectorstore
+# chromadb
+pinecone
+
+# Embeddings
+# sentence-transformers
+langchain-google-genai
+
+# PDF Parsing
+PyPDF  # backend for PyPDFLoader via langchain_community
+
+# Environment Variables
+python-dotenv
+
+# Typing & Utilities
+pydantic
+requests
+
+# Logging (optional but recommended)
+loguru
+
+# File Uploads
+aiofiles
+
+# frontend
+requests
+streamlit
+
+python-multipart
+
+sentence-transformers
+chromadb
