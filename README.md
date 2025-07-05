@@ -120,3 +120,7 @@ For questions or suggestions, open an issue or contact at [snsupratim@gmail.com]
 ---
 
 > Happy Building RAGbots! 🚀
+
+
+pip install -U :class:`~langchain-huggingface
+from :class:`~langchain_huggingface import HuggingFaceEmbeddings`
