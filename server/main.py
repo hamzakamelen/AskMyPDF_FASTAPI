@@ -62,5 +62,5 @@ async def test():
 # uvicorn main:app --reload
 
 
-from mangum import Mangum
-handler = Mangum(app)
+# from mangum import Mangum
+# handler = Mangum(app)
