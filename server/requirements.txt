@@ -1,42 +1,42 @@
-# Web Framework
+# # Web Framework
 fastapi
 uvicorn[standard]
 
-# LangChain & Ecosystem
+# # LangChain & Ecosystem
 langchain
 langchain-community
 langchain-core
 langchain-groq
 
-# Vectorstore
-# chromadb
-pinecone
+# # Vectorstore
+# # chromadb
+# pinecone
 
-# Embeddings
-# sentence-transformers
+# # Embeddings
+# # sentence-transformers
 langchain-google-genai
 
-# PDF Parsing
+# # PDF Parsing
 PyPDF  # backend for PyPDFLoader via langchain_community
 
-# Environment Variables
+# # Environment Variables
 python-dotenv
 
-# Typing & Utilities
-pydantic
-requests
+# # Typing & Utilities
+# pydantic
+# requests
 
-# Logging (optional but recommended)
-loguru
+# # Logging (optional but recommended)
+# loguru
 
-# File Uploads
-aiofiles
+# # File Uploads
+# aiofiles
 
-# frontend
-requests
-streamlit
+# # frontend
+# requests
+# streamlit
 
-python-multipart
+# python-multipart
 
 sentence-transformers
 chromadb
