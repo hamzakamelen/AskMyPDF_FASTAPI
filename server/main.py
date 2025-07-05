@@ -60,3 +60,7 @@ async def ask_questions(question:str=Form(...)):
 async def test():
     return {"message":"Testing successfully"}
 # uvicorn main:app --reload
+
+
+from mangum import Mangum
+handler = Mangum(app)

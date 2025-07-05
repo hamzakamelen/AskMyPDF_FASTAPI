@@ -1,6 +1,7 @@
 # # Web Framework
 fastapi
 uvicorn[standard]
+mangum
 
 # # LangChain & Ecosystem
 langchain
